@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Responsive portfolio by Ravi Panchal</title>
+    </head>
+    <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
+
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Portfolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="https://leetcode.com/u/ravipanchalkaithi/" class="nav__link">Leetcode</a></li>
+                        <li class="nav__item"><a href="https://www.canva.com/design/DAGJPVAzcf0/q8ZBw3KTtjrHhW2Q0tWU1Q/view?embed" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="https://gsv.ac.in/" class="nav__link">College</a></li>
+                        <li class="nav__item"><a href="https://ravi-panchal-gsv.blogspot.com/2024/07/blog-post.html" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="https://www.canva.com/design/DAGJPVA3b-M/ntKI74R3yY-UB2CJnE9VPA/view?embed" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="l-main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <span class="home__pressent anime-text">Hello, My name is</span>
+                    <h1 class="home__title anime-text">Ravi Panchal</h1>
+                    <span class="home__skill anime-text">Frontend Developer</span>
+                    
+                    <div>
+                        <a href="./My_Resume.docx" class="home__button anime-text">DOWNLOAD Resume</a>
+                    </div>
+                </div>
+
+                <div class="home__img">
+                    <img src="./profilePic.jpg" alt="profilePic">
+                </div>
+                
+                <div class="home__social">
+                   <a href="https://github.com/ravi-panchal-kaithi"><ion-icon name="logo-github" class="home__social-icon"></ion-icon> </a> 
+                   <a href="https://www.linkedin.com/in/ravi-panchal123"> <ion-icon name="logo-linkedIn" class="home__social-icon"></ion-icon></a>
+                    <a href="https://www.instagram.com/ravi.panchal.kaithi/"><ion-icon name="logo-instagram" class="home__social-icon"></ion-icon></a>
+                  
+                   
+                </div>
+
+            </div>
+        </main>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- MAIN -->
+        <script src="main.js"></script>
+    
+        <!-- ICONS -->
+        <script  type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    </body>
+</html>
